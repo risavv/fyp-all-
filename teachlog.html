@@ -84,11 +84,12 @@
         <h6 class="section-title bg-white text-center text-primary px-3">Teacher Login</h6>
     </div>
     <div class="login-form">
-        <form action="http://localhost:5000/teachlog" method="post">
-            <input type="text" name="user" placeholder="Email">
+        <form action="http://localhost:5000/teachlog" method="post" enctype="application/x-www-form-urlencoded">
+            <input type="text" name="user" placeholder="Username">
             <input type="password" name="password" placeholder="Password">
             <button type="submit" class="button-submitt">Login</button>
         </form>
+        
         <div style="padding-left: 55px;">
             <p><b><a href="">Forgot your password?</b></a></p>
         </div>
